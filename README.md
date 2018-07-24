@@ -20,7 +20,8 @@ The program start with a blank circuit with just two "pseudo-components", the in
 - you can drag-select multiple components to easily ajust all values after drawing the schematic
 - the circuit currently needs to be **planar**; crossing wires are not allowed
 - make sure you include a **ground**, or the simulator will not work
-- your circuit need an AC path between input and output, and bewteen input/output and ground
+- make sure your **opamps**, if any, are in **closed loop** feedback configuration; this program doesn't do comparators
+- your circuit needs an AC path between input and output, and bewteen input/output and ground
 - when everything is in place, use simulation / run in the menu to show the frequency response window
 
 TODO
