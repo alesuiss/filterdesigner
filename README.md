@@ -9,6 +9,11 @@ The intended use is to help design tone circuits for guitar amplifiers or other 
 
 You should consider this software to be alpha quality. The basic functionality works (rather well), but the UI lacks much polish, and bugs should be expected, especially if your circuits is "wrong" in some way: the program does absolutely no sanity check on it before attempting to simulate. Save your work before simulating :-)
 
+Running
+=======
+
+Get the latest release's `.jar` file [here](https://github.com/alesuiss/filterdesigner/releases). Run it with a Java VM 8+.
+
 Usage
 =====
 
